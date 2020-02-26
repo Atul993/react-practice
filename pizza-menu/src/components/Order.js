@@ -9,3 +9,5 @@ function Order({ closeHour, openHour }) {
     </div>
   );
 }
+
+export default Order;
