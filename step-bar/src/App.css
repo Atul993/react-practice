@@ -51,13 +51,13 @@
 }
 
 .btn {
-  background-color: #fff;
+  background-color: blueviolet;
   width: 10rem;
   height: 3rem;
   border-radius: 5rem;
   outline: none;
   border: none;
-  color: blueviolet;
+  color: #fff;
 }
 
 /* .App {
