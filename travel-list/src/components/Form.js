@@ -14,7 +14,6 @@ function Form({ onAddItems }) {
 
     if (!description) return;
     const newItem = { description, quantity, packed: false, id: Date.now() };
-    console.log("newItem", newItem);
     onAddItems(newItem);
 
     setDescription("");
