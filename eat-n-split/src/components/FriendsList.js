@@ -1,11 +1,11 @@
 import React from "react";
 import Friend from "./Friend";
 
-function FriendsList({ friends }) {
+function FriendsList({ friends, selectedFriend, onSelection }) {
   return (
     <ul>
       {friends.map((friend) => (
-        <Friend friend={friend} key={friend.id} />
+        <Friend friend={friend} key={friend.id} selectedFriend={selectedFriend} onSelection={onSelection} />
       ))}
     </ul>
   );
