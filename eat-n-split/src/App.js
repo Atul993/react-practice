@@ -41,6 +41,7 @@ function App() {
 
   function handleSelection(friend) {
     setSelectedFriend(friend);
+    setShowAddFriend(false);
   }
 
   return (
