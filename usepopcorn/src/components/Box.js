@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Box({ children }) {
+function Box({ children }) { // we can use element here instead of children explicitly
   const [isOpen, setIsOpen] = useState(true);
   return (
     <div className="box">
